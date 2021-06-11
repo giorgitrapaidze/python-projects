@@ -1,5 +1,5 @@
 # python-projects
-Mini projects written in python.
+Mini projects written in python:
 
 myauto_parser.py - Parser of website www.myauto.ge using Beatiful Soup
 
