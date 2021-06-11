@@ -1,7 +1,7 @@
 # python-projects
 Mini projects written in python:
 
-myauto_parser.py - Parser of website www.myauto.ge using Beatiful Soup
+myauto_parser.py - Parser of the website www.myauto.ge using Beatiful Soup
 
 movie-db.py - Creating an sqlite database according to user input using SQlite3 
 
@@ -9,9 +9,9 @@ zodiac.py - Getting zodiac sign by birth date
 
 Capitals.py - Getting capital according to user input country
 
-truth-table.py - Getting binary values for logical operator AND, OR using Tkinter
+truth-table.py - Getting binary values for logical operators AND, OR using Tkinter
 
-coronavirus.py - Parser of website www.worldometers.info using Beautiful Soup & Tkinter | getting coronavirus stats based on country input by user
+coronavirus.py - Parser of the website www.worldometers.info using Beautiful Soup & Tkinter | getting coronavirus stats based on country input by user
 
 ToDoList.py - To-do list software - add, edit, remove tasks
 
