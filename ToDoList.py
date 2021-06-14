@@ -13,6 +13,7 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS todos(
 
 class Manager:
 
+  
     def add_todo(date, text, deadline):
         cursor.execute("""INSERT INTO todos
                             (date, text, deadline)
@@ -21,7 +22,8 @@ class Manager:
         connection.commit()
 
         print("\nჩანაწერი წარმატებით დამატებულია!\n")
-
+    
+    
     def edit_todo(self, uid):
 
         text = input("შეიტანეთ ახალი ჩანაწერი:")
@@ -34,7 +36,8 @@ class Manager:
         connection.commit()
 
         print("\nჩანაწერი წარმატებით ჩანაცვლდა!\n")
-
+    
+    
     def del_todo(self, uid):
 
         cursor.execute("""DELETE FROM todos
@@ -44,7 +47,8 @@ class Manager:
 
         print("ჩანაწერი წარმატებით წაიშალა!\n")
 
-
+    
+    
     def show_all(self):
         cursor.execute("""SELECT * from todos""")
         records = cursor.fetchall()
