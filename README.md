@@ -27,6 +27,3 @@ ToDoList.py - To-do list software - add, edit, remove tasks
 Convert.py - Convert between units of length: mile, km, m, cm
 
 
-int to time flask - integer to time conversion, storing the result in mysql database, fetching database at /viewlog 
-                    http://gio1009.pythonanywhere.com/
-                    http://gio1009.pythonanywhere.com/viewlog
